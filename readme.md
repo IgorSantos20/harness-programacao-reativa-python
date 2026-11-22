@@ -167,3 +167,5 @@ Para observar o Harness em ação com qualquer agente de codificação (Claude C
 
 1. Peça ao agente: *"Leia `AGENTS.md` e adicione um novo consumidor `ReactiveAuditLogger` em `src/with_harness/consumers.py` que registre todas as compras acima de R$ 1.000,00."*
 2. Observe o agente implementar o filtro (`ops.filter`), executar `python harness/run_harness.py`, detectar eventuais violações (como uso de `try/except` ou chamada indevida a `.on_next()`) e corrigir o próprio código até passar em todas as validações.
+
+Link para o vídeo: https://github.com/IgorSantos20/harness-programacao-reativa-python
